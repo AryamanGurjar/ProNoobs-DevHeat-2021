@@ -1,0 +1,120 @@
+
+
+
+.card
+{
+   background-color: rgb(119, 30, 221);
+    height: 30%;
+    width: 30%;
+    color: cornsilk;
+    text-align: center;
+    margin-left: 15%;
+    
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    /* text-align: left; */
+    margin-top: 25px;
+    
+}
+
+.button
+
+{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    border: 5px solid;
+    border-radius: 12px;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 38.9%;
+    background-color: rgb(238, 74, 44);;
+    
+
+}
+#button1:hover
+{
+    background-color: rgb(119, 30, 221);
+
+}
+
+#button2
+{
+    background-color: rgb(115, 233, 115);
+}
+
+#button2:hover
+{
+    background-color: rgb(240, 175, 77);
+
+}
+
+#button3
+{
+    background-color: rgb(19, 106, 236);
+}
+
+#button3:hover
+{
+    background-color: rgb(30, 207, 207);
+}
+
+#button4
+{
+    background-color: rgb(138, 170, 231);
+}
+
+#button4:hover
+{
+    background-color: rgb(142, 209, 87);
+}
+
+#button5
+{
+    background-color: rgb(243, 148, 58);
+}
+
+#button5:hover
+
+{
+    background-color: rgb(238, 30, 30);
+}
+
+
+
+
+.nav
+{
+    text-decoration: none;
+    font-family: cursive;
+    border: 3px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 55.5px;
+    padding-right: 55.5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 6px;
+    
+    
+    
+}
+
+.nav:hover
+{
+ background-color: rgb(42, 148, 235);
+}
