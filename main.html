@@ -14,13 +14,16 @@
   <title>HouseHold Expenses</title>
 </head>
 
-<body style="background-color: rgb(238, 74, 44);">
-  <!-- navigation bar code -->
-  <a class="nav">Home Expenses</a>
-  <a href="educationexpenses.html" class="nav">Education Expenses</a>
-  <a href="healthexpenses.html" class="nav">Health Expenses</a>
-  <a href="Travelling.html" class="nav">Travelling Expenses</a>
-  <a href="personal.html" class="nav">Personal Expenses</a>
+<body style="background: rgb(101,92,240);
+background: linear-gradient(90deg, rgba(101,92,240,1) 0%, rgba(53,206,242,1) 35%);">
+
+<!-- earning  -->
+<form>
+  <label id="label">Total Earning :</label> <input type="number" id="earning">
+</form>
+<!-- 1st page -->
+  <img src="https://i.pinimg.com/originals/61/b2/d3/61b2d33f39927afa72e5f57a28cc7c83.gif" class="left">
+  <img src="https://www.mortgagecalculator.org/images/family-planning.jpg" class="right">
   <!-- code for making card -->
   <div class="card">
     <h1
@@ -45,13 +48,139 @@
   </div>
   <br>
   <!-- submit button code -->
-  <input type="submit" class="button" id="button1">
-  </form>
-  <button onclick="homeExpense()">Try It</button>
+  
+</form>
 
+<button onclick="homeExpense()" class="button" id="button1">Fix Amount</button>
   <p id="para"></p>
+
+
+
+   <!-- 2nd_ card -->
+
+<img src="https://i.pinimg.com/originals/4b/5e/a7/4b5ea77816de6baf215d3f35e6f882b0.gif" class="left" style="height: 125px;">
+<img src="https://cdn.dribbble.com/users/1595567/screenshots/6378552/6.gif" class="right" style="height: 159px;">
+
+
+   <div class="card" style="background-color: rgb(240, 175, 77);padding-top: 3%;padding-bottom: 3.5%;">
+    <h1
+        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        Education Expenses</h1>
+    <br>
+
+    <form action="healthexpenses.html" method="get">
+        College Fees 👉 <input type="number" id="college-bill" class="edubill" min="0"><br><br>
+        School Fess 👉 <input type="number" id="school-bill" class="edubill" min="0"><br><br>
+        Bus fees 👉 <input type="number" id="bus-bill" class="edubill" min="0"><br><br>
+        Tuition Fees 👉 <input type="number" id="tution-bill" class="edubill" min="0"><br><br>
+        Stationary Charges 👉 <input type="stationery-number" id="stationerybill" class="edubill" min="0"> <br><br>
+        Other 👉 <input type="number" id="other-bill-2" class="edubill" min="0"> <br><br>
+
+
+</div>
+<br>
+
+</form>
+<button onclick="educationExpense()" class="button" id="button2">Fix Amount</button>
+<p id="para"></p>
+
+<!-- 3rd_card -->
+
+<img src="https://blockchaininstitute.edu.au/wp-content/uploads/2020/07/b43db78f64c8e26fb580bb7f00b66222.gif" class="left" style="height: 162px;">
+<img src="https://cdn.dribbble.com/users/1212356/screenshots/6038546/c_hipertensao.gif" class="right" style="height: 159px;">
+
+
+
+<div class="card" style="background-color: rgb(30, 207, 207);margin-top: 30px;padding-top: 4%;padding-bottom: 5%;">
+  <h1
+    style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    Health Expenses</h1>
   <br>
+
+  <form action="Travelling.html" method="get">
+    Regular Checkup Cost 👉 <input type="number" id="rcheckup-bill" class="healthbill" min="0"><br><br>
+    <id style="font-size: 17px;">Emergency Checkup Cost 👉 <input type="number" id="echeckup-bill" class="healthbill"
+        min="0">
+    </id>
+    <br><br>
+    Medicine Cost 👉 <input type="number" id="medi-bill" class="healthbill" min="0"><br><br>
+    <!-- <id style="font-size: 18px;"> Phone Recharge Bill 👉 <input type="number" id="bill" min="0"></id><br><br> -->
+
+    Other Expenses 👉 <input type="number" id="other-bill-3" class="healthbill" min="0"> <br><br>
+
+</div>
+<br>
+
+</form>
+
+<button onclick="healthExpense()" class="button" id="button3">Fix Amount</button>
+<p id="para"></p>
+
+<!-- 4_page -->
+
+
+<img src="https://i.pinimg.com/originals/36/f9/76/36f97663a6a4a6e7a9547e1b5f9d4087.gif" class="left" style="border-radius: 20px;">
+<img src="https://media0.giphy.com/media/YlYvNi3peKT6gsyurj/giphy.gif" class="right" style="height: 210px;">
+
+<div class="card" style="background-color: rgb(142, 209, 87);padding-top: 3%;padding-bottom: 3.5%;">
+  <h1
+      style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      Travelling Expenses</h1>
   <br>
+
+  <form action="personal.html" method="get">
+      Petrol Cost👉 <input type="number" id="petrol-bill" class="travelbill" min="0"><br><br>
+      Diesel Cost 👉 <input type="number" id="diesel-bill" class="travelbill" min="0"><br><br>
+      <id style="font-size: 16.5px;">Vechile Maintinence Cost 👉 <input type="number" id="vehicle-bill"
+              class="travelbill" min="0">
+      </id>
+      <br><br>
+      <id style="font-size: 17px;">Travelling Bus Charges 👉 <input type="number" id="bus-bill" class="travelbill"
+              min="0"></id>
+      <br><br>
+      Auto Charges 👉 <input type="number" id="auto-bill" class="travelbill" min="0"> <br><br>
+      Other 👉 <input type="number" id="other-bill-4" class="travelbill" min="0"> <br><br>
+
+
+</div>
+<br>
+
+</form>
+
+<button onclick="travellingExpense()" class="button" id="button4">Fix Amount</button>
+<p id="para"></p>
+
+<!-- 5_page -->
+<img src="https://1.bp.blogspot.com/-8t8EOQlmCWU/X2mRuCSrMbI/AAAAAAAAA3c/XbJ-z2W2_ygLDT2TdvEu0pfmeAhH2lkCACNcBGAsYHQ/s820/CxrL%2B%25281%2529.gif" class="left" style="height: 90px;">
+<img src="https://institute.careerguide.com/wp-content/uploads/2020/09/Blog-Post-Graphic-How-to-design-the-perfect-MMS_gif.gif" class="right" style="height: 107px;border-radius: 30px;">
+
+<div class="card" style="background-color: rgb(238, 30, 30);">
+  <h1
+      style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      Personal Expenses</h1>
+  <br>
+
+  <form >
+      Books 👉 <input type="number" id="book-bill" class="personalbill" min="0"><br><br>
+      Courses Charge 👉 <input type="number" id="course-bill" class="personalbill" min="0"><br><br>
+      Movie 👉 <input type="number" id="movie-bill" class="personalbill" min="0"><br><br>
+      Outside food Charge 👉 <input type="number" id="outfood-bill" class="personalbill" min="0"><br><br>
+      Haircut 👉 <input type="number" id="haircut-bill" class="personalbill" min="0"> <br><br>
+      Parlour Charges 👉 <input type="number" id="parlour-bill" class="personalbill" min="0"> <br><br>
+      Other 👉 <input type="number" id="other-bill-5" class="personalbill" min="0"> <br><br>
+
+
+</div>
+<br>
+
+</form>
+
+<button onclick="personalExpense()"  class="button" id="button5">Fix Amount</button>
+<p id="para"></p>
+
+<input type="submit" id="Submit" class="button">
+
+
   <script src="script.js"></script>
 </body>
 

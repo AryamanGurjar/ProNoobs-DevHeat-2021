@@ -13,7 +13,7 @@
     padding-left: 20%;
     padding-right: 20%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 19px;
+    font-size: 17.5px;
     font-weight: bold;
     letter-spacing: 2px;
     padding-top: 25px;
@@ -39,8 +39,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 25px;
-    margin-left: 38.9%;
-    background-color: rgb(238, 74, 44);;
+    margin-left: 37%;
+    background-color: transparent;
     
 
 }
@@ -50,10 +50,7 @@
 
 }
 
-#button2
-{
-    background-color: rgb(115, 233, 115);
-}
+
 
 #button2:hover
 {
@@ -61,30 +58,21 @@
 
 }
 
-#button3
-{
-    background-color: rgb(19, 106, 236);
-}
+
 
 #button3:hover
 {
     background-color: rgb(30, 207, 207);
 }
 
-#button4
-{
-    background-color: rgb(138, 170, 231);
-}
+
 
 #button4:hover
 {
     background-color: rgb(142, 209, 87);
 }
 
-#button5
-{
-    background-color: rgb(243, 148, 58);
-}
+
 
 #button5:hover
 
@@ -117,4 +105,77 @@
 .nav:hover
 {
  background-color: rgb(42, 148, 235);
+}
+
+#para
+{
+    align-items: center;
+    margin-left: 42%;
+    font-size: 40px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    margin-right: 40%;
+    text-align: center;
+    border-radius: 6px;
+   
+}
+
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+#Submit
+{
+    font-size: 40px;
+    margin-left: 16.1%;
+    margin-right: 20px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#Submit:hover
+{
+    background-color: rgb(27, 231, 27);
+}
+
+.left
+{
+    float: left;
+    height: 160px;
+    border-radius: 360px;
+    border: 2px solid rgb(55, 55, 247);
+    margin-top: 50px;
+}
+
+.right
+{
+    float: right;
+    height: 188px;
+    border-radius: 360px;
+    border: 2px solid rgb(55, 55, 247);
+    margin-top: 290px;  
+}
+
+#earning
+{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(61, 214, 235);
+    text-align: center;
+}
+
+#label
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 19.5%;
+    font-size: 60px;
+    color: aliceblue;
+
 }
